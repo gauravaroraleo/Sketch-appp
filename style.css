@@ -1,0 +1,25 @@
+body {
+    background-color: aqua
+}
+
+h1 {
+    background-color: blueviolet;
+    color: cornsilk
+}
+
+#show_sketch {
+    float: right
+}
+
+canvas {
+    border: 5px solid green;
+    border-radius: 20px;
+    animation-name: bicycle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top:50px
+}
+@keyframes bicycle{
+    from{box-shadow:5px 5px 40px orange;}
+    to{box-shadow:5px 5px 40px yellow;}
+}
